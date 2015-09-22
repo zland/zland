@@ -1,0 +1,13 @@
+.DS_Store
+platforms
+release
+*.sublime-*
+.sass-cache
+bower_components
+node_modules
+www/build
+www/js
+www/assets
+*hot-update.js*
+config/config.json
+www/bootstrap.coffee

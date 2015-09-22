@@ -1,0 +1,10 @@
+{
+  "api_url": "http://localhost",
+  "maps_api_key": null,
+  "statsInterval": 30000,
+  "debug_coords": {
+    "lat": 52.555406,
+    "long": 13.418406
+  },
+  "debug": false
+}
