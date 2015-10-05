@@ -16,12 +16,12 @@
 
 /**
  * @filedescription
- * - gulp set-config-to-debug - sets debug flag in config/config.json true
- * - gulp set-config-to-production - sets debug flag in config/config.json false
- * - gulp webpack - launch webpack in watch mode
- * - gulp webpack:debug - launch webpack in watch mode with debug settings
- * - gulp build-webpack - webpack build files
- * - gulp build-webpack:debug - webpack build files in debug mode
+ * - `gulp set-config-to-debug` - sets debug flag in config/config.json true
+ * - `gulp set-config-to-production` - sets debug flag in config/config.json false
+ * - `gulp webpack` - launch webpack in watch mode
+ * - `gulp webpack:debug` - launch webpack in watch mode with debug settings
+ * - `gulp build-webpack` - webpack build files
+ * - `gulp build-webpack:debug` - webpack build files in debug mode
  */
 
 'use strict';
