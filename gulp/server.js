@@ -16,8 +16,8 @@
 
 /**
  * @filedescription
- * - `gulp serve` - serve in files in the browser with production settings
- * - `gulp serve:debug` - serve in files in the browser with debug settings
+ * - `gulp serve` - serve in the browser with production settings
+ * - `gulp serve:debug` - serve in the browser with debug settings
  * - `gulp set-config-to-debug` - sets debug flag in config/config.json true
  * - `gulp set-config-to-production` - sets debug flag in config/config.json false
  * - `gulp webpack` - launch webpack in watch mode
