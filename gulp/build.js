@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * - gulp build - for building the project
+ * - gulp build:debug - for building the project in debug mode, gps and heading sensor faked
+ * - gulp zland-assets - copies assets from corresponding modules in node_modules folder to www-directory
+ * - gulp merge-zland-configs - merge all .zland-configs into the config of this project
+ * 
+ *
+ */
+
 'use strict';
 
 var gulp = require('gulp');

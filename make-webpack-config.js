@@ -14,6 +14,12 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * function for building a webpack config object
+ * zland modules are injected dynamically using configs of config/config.json 
+ */
+
 'use strict';
 
 var webpack = require('webpack'),

@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * webpack config with debug settings
+ */
+
 'use strict';
 
 module.exports = {

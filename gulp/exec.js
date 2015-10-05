@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription exec bash commands with node js
+ */
+
 'use strict';
 
 var Promise = require("bluebird");

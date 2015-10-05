@@ -14,6 +14,16 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * - gulp set-config-to-debug - sets debug flag in config/config.json true
+ * - gulp set-config-to-production - sets debug flag in config/config.json false
+ * - gulp webpack - launch webpack in watch mode
+ * - gulp webpack:debug - launch webpack in watch mode with debug settings
+ * - gulp build-webpack - webpack build files
+ * - gulp build-webpack:debug - webpack build files in debug mode
+ */
+
 'use strict';
 
 var gulp = require('gulp');
@@ -92,37 +102,6 @@ gulp.task('start-browsersync', function () {
     ],
     'google chrome'
   );
-});
-
-gulp.task('nodemon:debugsocket', [], function (cb) {
-  var called = false;
-  return $.nodemon({
-    script: 'node_modules/zland-debugsocket/socket_server.coffee',
-    watch: [
-      "node_modules/zland-debugsocket/socket_server.coffee"
-    ]
-  })
-  .on('start', function () {
-    if (!called) {
-      called = true;
-      cb();
-    }
-  });
-});
-
-gulp.task('serve', ['set-config-to-production', 'webpack'], function() {
-  return gulp.start('start-browsersync');
-});
-
-gulp.task('serve:debug', ['set-config-to-debug', 'webpack:debug'], function(done) {
-  return gulp.start('start-browsersync');
-});
-
-gulp.task('open-debug-socket', ['nodemon:debugsocket'], function() {
-  return gulp.src(process.cwd() + '/node_modules/zland-debugsocket/socket.html')
-  .pipe($.open('file:///' + process.cwd() + '/node_modules/zland-debugsocket/socket.html', {
-    app: 'google chrome'
-  }));
 });
 
 gulp.task('set-config-to-debug', function(done) {

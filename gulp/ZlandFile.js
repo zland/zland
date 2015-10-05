@@ -14,6 +14,10 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription helper for building files from config parameters
+ */
+
 'use strict';
 
 var configs = require(__dirname + '/../config/config.json').configs;

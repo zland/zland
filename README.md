@@ -39,12 +39,13 @@ Launch ios
 
 ### [Contribute](Contribute.md)
 
+
 <!-- start generated readme -->
 
 ## Directories  
 
 ### [config](config)  
-
+Simply copy the config.sample.json to config.json. Then register at You can get the key on your [google api](https://developers.google.com/maps/documentation/javascript/get-api-key) to obtain a maps api key.
 
 ### [gulp](gulp)  
 Gulp files for building zland.
@@ -52,14 +53,11 @@ Gulp files for building zland.
 ### [hooks](hooks)  
 #
 
-### [platforms](platforms)  
-
-
 ### [plugins](plugins)  
-
+All plugins added using `cordova plugin add`
 
 ### [res](res)  
-Resources folder, mobile os specific images like splash screen and icons are places here.
+Resources folder: mobile os specific images like splash screen and icons are places here.
 
 ### [www](www)  
 Files for running projects isolated from main project.
@@ -67,15 +65,17 @@ Files for running projects isolated from main project.
 ## Files  
 
 ### [gulpfile.js](gulpfile.js.md)  
-
+includes all gulp files in gulp-folder
+sets search-globs for creating docs
 
 ### [make-webpack-config.js](make-webpack-config.js.md)  
-
+function for building a webpack config object
+zland modules are injected dynamically using configs of config/config.json
 
 ### [webpack-debug-settings.js](webpack-debug-settings.js.md)  
-
+webpack config with debug settings
 
 ### [webpack-production-settings.js](webpack-production-settings.js.md)  
-
+webpack config with production settings
 
 <!-- end generated readme -->

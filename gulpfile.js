@@ -14,6 +14,12 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * includes all gulp files in gulp-folder
+ * sets search-globs for creating docs
+ */
+
 'use strict';
 
 var gulp = require('gulp');

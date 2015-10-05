@@ -14,6 +14,11 @@
  * limitations under the License.
  */
 
+/**
+ * @filedescription
+ * webpack config with production settings
+ */
+
 'use strict';
 
 var webpack = require('webpack');

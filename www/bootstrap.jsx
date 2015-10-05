@@ -26,25 +26,24 @@ require('bootstrap/dist/css/bootstrap.css');
 require('map/sass/style');
 require('fontawesome/css/font-awesome.min');
 
-//
-// /**
-//  * enable this to see whats happening with playground
-//  * and google map
-//  */
-// // require('core/mapCalculate').getHeight = function() {
-// //   return 400;
-// // };
-// // require('core/mapCalculate').getWidth = function() {
-// //   return 400;
-// // };
-// // require('core/mapCalculate').getTop = function() {
-// //   return 40;
-// // };
-// // require('core/mapCalculate').getLeft = function() {
-// //   return 40;
-// // };
-//
-//
+
+/*!
+ * enable this to see whats happening with playground
+ * and google map
+ */
+// require('core/mapCalculate').getHeight = function() {
+//   return 400;
+// };
+// require('core/mapCalculate').getWidth = function() {
+//   return 400;
+// };
+// require('core/mapCalculate').getTop = function() {
+//   return 40;
+// };
+// require('core/mapCalculate').getLeft = function() {
+//   return 40;
+// };
+
 var Router = require('react-router');
 var React = require('react');
 
